@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+.color-web {
+    color: #4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.color-studio {
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+span:hover,
+span:focus {
+    color: #4D5AE5
+}
+
+.style-nev .link:hover,
+.style-nev .link:focus {
+    color: #4D5AE5;
+    
+}
+
+.style-nev .item {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.style-nev .address {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.btn {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.caption {
+    font-weight: 600;
+    font-size: 20;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.item {
+    font-size: 16;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.white-studio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.31;
+    color: #E7E9FC;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+}
