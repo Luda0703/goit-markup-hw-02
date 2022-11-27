@@ -7,17 +7,17 @@ body {
 }
 
 .color-web {
+    font-family: "Raleway";
     color: #4D5AE5;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .color-studio {
+    font-family: "Raleway";
     color: #2E2F42;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 span:hover,
@@ -32,24 +32,21 @@ span:focus {
 }
 
 .style-nev .item {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+    font-weight: 500;
+    line-height: 1;
     color: #2E2F42;
 }
 
 .style-nev .address {
-    font-size: 16px;
-    line-height: 1.5;
+    line-height: 1;
     color: #434455;
 }
 
 .btn {
     background-color: #F4F4FD;
     color: #4D5AE5;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+    font-weight: 500;
+    line-height: 1;
 }
 
 .btn:hover,
@@ -59,15 +56,13 @@ span:focus {
 }
 
 .caption {
-    font-weight: 600;
-    font-size: 20;
-    line-height: 1.5;
+    font-weight: 500;
+    line-height: 1.2;
     color: #2E2F42;
 }
 
 .item {
-    font-size: 16;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 .footer {
@@ -75,15 +70,13 @@ span:focus {
 }
 
 .white-studio {
+    font-family: "Raleway";
     font-weight: 800;
-    font-size: 18px;
-    line-height: 1.31;
+    line-height: 1.2;
     color: #E7E9FC;
 }
 
 .desc {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
 }
