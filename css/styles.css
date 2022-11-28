@@ -18,10 +18,13 @@ body {
     
 }
 
-
+.list {
+    text-decoration: none;
+}
 
 ul {
     list-style: none;
+    text-decoration: none;
     
 }
 .color-web {
@@ -40,10 +43,6 @@ ul {
     color: var(--title-text-color);
 }
 
-span:hover,
-span:focus {
-    color: var(--accent-color)
-}
 
 .style-nev .link:hover,
 .style-nev .link:focus {
@@ -114,7 +113,8 @@ span:focus {
     color: var(--primary-text-color)
 }
 
-.section-subtitle {
+.section-subtitle,
+.headline {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -124,6 +124,12 @@ span:focus {
 .section-text {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.headline-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
 }
 
 .btn {
@@ -139,6 +145,7 @@ span:focus {
     background-color: var(--accent-color);
     color: var(--hero-color)
 }
+
 
 .footer {
     background-color: var(--title-text-color);
