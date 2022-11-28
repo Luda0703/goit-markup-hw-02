@@ -1,106 +1,160 @@
-body {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    background-color: #FFFFFF;
-    color: #434455;
+:root {
+    --primary-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --title-text-color: #2E2F42;
+    --text-color: #434455;
+    --hero-color: #FFFFFF;
+    --desc-color: #E7E9FC;
+    --studio-color: #F4F4FD;
+    --button-color: #404BBF;
 }
 
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--hero-color);
+    color: var(--text-color);
+    
+}
+
+
+
+ul {
+    list-style: none;
+    
+}
 .color-web {
-    font-family: "Raleway";
-    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.2;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--accent-color);
 }
 
 .color-studio {
-    font-family: "Raleway";
-    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.2;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--title-text-color);
 }
 
 span:hover,
 span:focus {
-    color: #4D5AE5
+    color: var(--accent-color)
 }
 
 .style-nev .link:hover,
 .style-nev .link:focus {
-    color: #4D5AE5;
+    color: var(--accent-color)
     
 }
 
 .style-nev .item {
     font-weight: 500;
-    line-height: 1;
-    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color)
 }
 
 .style-nev .address {
-    line-height: 1;
-    color: #434455;
+    line-height: 1.5;
+    color: var(--text-color)
 }
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--title-text-color)
 }
 
 .hero-title {
-    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    color: var(--hero-color)
 }
 
 .hero-button {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.2;
     background-color: #4D5AE5;
-    color: #FFFFFF;
+    color: var(--hero-color);
+    
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-color);
+    color: var(--hero-color);
+    cursor: pointer
 } 
 
+.visually-hidden { 
+    position: absolute; 
+    white-space: nowrap; 
+    width: 1px; 
+    height: 1px; 
+    overflow: hidden; 
+    border: 0; 
+    padding: 0; 
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%); 
+    margin: -1px; 
+}
+
 .section-team {
-    background-color: #F4F4FD;
+    background-color: var(--studio-color);
 }
 
 .section-title {
     font-weight: 500;
-    line-height: 2.2;
-    color: #2E2F42; 
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--primary-text-color)
 }
 
 .section-subtitle {
     font-weight: 500;
-    line-height: 1.25;
-    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color)
 }
 
 .section-text {
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.5;
+    color: var(--text-color);
 }
 
 .btn {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
+    background-color: var(--studio-color);
+    color: var(--accent-color);
     font-weight: 500;
-    line-height: 1;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--hero-color)
 }
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--title-text-color);
 }
 
 .white-studio {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
+    font-size: 18px;
     line-height: 1.2;
-    color: #E7E9FC;
+    color: var(--studio-color)
 }
 
 .desc {
+    font-size: 16;
     line-height: 1.5;
-    color: #E7E9FC;
+    color: var(--desc-color)
 }
