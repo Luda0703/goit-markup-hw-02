@@ -33,6 +33,10 @@ ul {
     font-size: 18px;
     line-height: 1.33;
     color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .color-studio {
@@ -41,6 +45,10 @@ ul {
     font-size: 18px;
     line-height: 1.33;
     color: var(--title-text-color);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
@@ -54,12 +62,14 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
 }
 
 .style-nev .address {
     line-height: 1.5;
-    color: var(--text-color)
+    color: var(--text-color);
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -67,19 +77,21 @@ ul {
 }
 
 .hero-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1;
-    color: var(--hero-color)
+    color: var(--hero-color);
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.2;
     background-color: #4D5AE5;
     color: var(--hero-color);
-    
+    letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
@@ -107,29 +119,36 @@ ul {
 }
 
 .section-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    
 }
 
 .section-subtitle,
 .headline {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
 }
 
 .section-text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .headline-text {
     font-size: 16px;
     line-height: 1.5;
     color: var(--text-color);
+    letter-spacing: 0.02em;
 }
 
 .btn {
@@ -138,12 +157,18 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;;
 }
 
 .btn:hover,
 .btn:focus {
     background-color: var(--accent-color);
     color: var(--hero-color)
+}
+
+.pic {
+    background-color: var(--hero-color);
 }
 
 
@@ -156,11 +181,16 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.2;
-    color: var(--studio-color)
+    color: var(--studio-color);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .desc {
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.5;
-    color: var(--desc-color)
+    color: var(--desc-color);
+    letter-spacing: 0.02em;
 }
